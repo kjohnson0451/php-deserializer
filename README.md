@@ -6,21 +6,21 @@ This is a deserializer written in PHP. It takes an expression (in string format)
 
 THIS SCRIPT WAS DEBUGGED AND RUN ON A UBUNTU MACHINE WITH PHP CLI INSTALLED:
 
-$ apt-get install php7.0-cli
+`$ apt-get install php7.0-cli`
 
 ##Usage
 
-$ php deserializer.php "<expression>"
+`$ php deserializer.php "<expression>"`
 
 ##Examples
 
-$ php deserializer.php "true"
+`$ php deserializer.php "true"`
 
-$ php deserializer.php "'example string'"
+`$ php deserializer.php "'example string'"`
 
-$ php deserializer.php "['example', 'array']"
+`$ php deserializer.php "['example', 'array']"`
 
-$ php datto_test_main.php "['true', [true, 'something'], 'blah blah', [['blah'], true], false]"
+`$ php datto_test_main.php "['true', [true, 'something'], 'blah blah', [['blah'], true], false]"`
 
 ##NOTES
 
